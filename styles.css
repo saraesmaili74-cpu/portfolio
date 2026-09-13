@@ -101,6 +101,10 @@ figcaption { margin-top: 10px; color: var(--muted); font-family: "DM Mono", mono
 .direction-content { max-width: 480px; }
 .direction-content ul { padding-left: 18px; margin: 30px 0 0; }
 .direction-content li { margin: 9px 0; }
+.architecture-figure { margin: 56px 0 0; padding: 24px; overflow: hidden; border-radius: var(--radius); background: #f5e8d2; }
+.architecture-figure a { display: block; cursor: zoom-in; }
+.architecture-figure img { display: block; width: 100%; height: auto; border-radius: 8px; }
+.architecture-figure figcaption { margin: 15px 4px 2px; }
 .landing-block { display: grid; grid-template-columns: .9fr 1.1fr; gap: 50px; margin-top: 100px; background: #ebe7df; border-radius: var(--radius); overflow: hidden; }
 .landing-copy { padding: clamp(35px, 6vw, 76px); }
 .landing-copy > p { max-width: 450px; margin-top: 24px; color: var(--muted); }
