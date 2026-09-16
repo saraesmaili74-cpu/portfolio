@@ -1148,4 +1148,12 @@ img[loading="lazy"] { content-visibility: auto; }
 .case-hero {
   height: auto;
   min-height: 100svh;
+  align-content: start;
+  padding-top: clamp(28px, 4vw, 52px);
+}
+
+/* Keep the return link in the document flow so it never sits on top of a case title. */
+.case-hero .case-back {
+  position: static;
+  grid-column: 1 / -1;
 }
