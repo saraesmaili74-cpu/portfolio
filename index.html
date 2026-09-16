@@ -15,6 +15,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script src="site.js" defer></script>
   </head>
   <body class="home">
     <a class="skip-link" href="#main">Skip to content</a>
@@ -22,15 +23,13 @@
     <header class="site-header">
       <a class="wordmark" href="#top" aria-label="Sara Esmaeili, home">SARA<span>·</span>ESMAEILI</a>
       <nav aria-label="Primary navigation">
-        <a href="index.html" aria-current="page">Home</a>
-        <a href="work.html">Case Studies</a>
-        <a href="templates.html">Templates</a>
-        <a href="about.html">About</a>
+        <a href="#top" aria-current="page">Home</a>
+        <a href="#work">Case Studies</a>
+        <a href="#visual-archive-content">Visual Archive</a>
+        <a href="#about">About</a>
         <a href="contact.html">Contact</a>
       </nav>
-      <a class="header-link" href="https://www.linkedin.com/in/saraesmaili/" target="_blank" rel="noreferrer">
-        LinkedIn <span aria-hidden="true">↗</span>
-      </a>
+      <div class="header-actions"><a class="resume-download" href="assets/Sara-Esmaeili-Product-Designer-CV.pdf" download>Resume <span aria-hidden="true">↓</span></a><a class="header-link" href="https://www.linkedin.com/in/saraesmaili/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></div>
     </header>
 
     <main id="main">
@@ -38,13 +37,12 @@
         <div class="eyebrow"><span></span> AVAILABLE FOR PRODUCT DESIGN OPPORTUNITIES</div>
         <div class="hero-grid">
           <h1 id="hero-title">
-            I design digital products that make complex things feel
-            <em>clear.</em>
+            Hello! <span class="inline-portrait"><img src="assets/sara-portrait.png" alt="Sara Esmaeili" /></span> I’m Sara,<br />a product designer.
           </h1>
           <div class="hero-note">
             <p>
-              Sara Esmaeili is a Product Designer based in Qom, Iran. I combine qualitative research,
-              systems thinking, and visual design to shape useful experiences from early ideas to interactive prototypes.
+              I shape thoughtful digital experiences — from early ideas and user flows to clear interfaces,
+              interactive prototypes, and AI-assisted exploration.
             </p>
             <a class="text-link" href="#work">Explore selected work <span aria-hidden="true">↓</span></a>
           </div>
@@ -64,36 +62,24 @@
       <section class="work section" id="work" aria-labelledby="work-title">
         <div class="section-heading">
           <p class="section-index">02 / SELECTED WORK</p>
-          <h2 id="work-title">Mehrabani</h2>
-          <p class="work-meta">Digital charity platform · UX Research &amp; UI/UX Design</p>
+          <h2 id="work-title">Selected case studies</h2>
+          <a class="section-action" href="#work">Explore work <span aria-hidden="true">↓</span></a>
         </div>
-
-        <article class="case-card" aria-labelledby="case-title">
-          <div class="case-card-top">
-            <p class="case-label">CASE STUDY / 01</p>
-            <a class="round-link" href="case-mehrabani.html" aria-label="Read the Mehrabani case study">↘</a>
+        <div class="ticker-wrap" aria-label="Case studies">
+          <div class="ticker-row">
+            <article class="ticker-card ticker-card-dark"><a href="#case-mehrabani" aria-label="Read the Mehrabani case study"><div class="ticker-card-media"><img src="assets/mehrabani-live-desktop.png" alt="Real screenshot of the live Mehrabani website" loading="lazy" /></div><div class="ticker-card-body"><p class="case-label">01 · 2022–2024</p><p class="card-client">Client · Imam Khomeini Relief Foundation</p><h3>Mehrabani</h3><p>Research-led charity platform design for clearer support journeys.</p><span class="ticker-link">Read case study <span aria-hidden="true">↗</span></span></div></a></article>
+            <article class="ticker-card ticker-card-blue"><a href="#case-soha" aria-label="Read the Soha case study"><div class="ticker-card-media"><img src="assets/soha-dashboard-overview.png" alt="Soha management dashboard" loading="lazy" /></div><div class="ticker-card-body"><p class="case-label">02 · 2022–2024</p><p class="card-client">Employer · Aghigh Family</p><h3>Soha</h3><p>End-to-end redesign of a support-management dashboard.</p><span class="ticker-link">Read case study <span aria-hidden="true">↗</span></span></div></a></article>
+            <article class="ticker-card ticker-card-dark"><a href="#case-novin-parva" aria-label="Read the NovinParva office automation case study"><div class="ticker-card-media"><img src="assets/novinparva-workflow-screen.png" alt="NovinParva office automation workflow screen" loading="lazy" /></div><div class="ticker-card-body"><p class="case-label">03 · 2023–2025</p><p class="card-client">Employer · NovinParva</p><h3>NovinParva Office Automation</h3><p>Simplifying enterprise correspondence into clear digital workflows.</p><span class="ticker-link">Read case study <span aria-hidden="true">↗</span></span></div></a></article>
+            <article class="ticker-card ticker-card-blue"><a href="#case-novin-parva-cms" aria-label="Read the NovinParva CMS case study"><div class="ticker-card-media"><img src="assets/novinparva-cms-content-management.png" alt="NovinParva CMS content-management interface" loading="lazy" /></div><div class="ticker-card-body"><p class="case-label">04 · 2024–2025</p><p class="card-client">Employer · NovinParva</p><h3>NovinParva CMS</h3><p>A responsive content platform for two existing applications.</p><span class="ticker-link">Read case study <span aria-hidden="true">↗</span></span></div></a></article>
+            <article class="ticker-card ticker-card-dark"><a href="#case-mokaab-gold" aria-label="Read the Mokaab Gold case study"><div class="ticker-card-media"><img src="assets/mokaab-live-home-web.png" alt="Mokaab Gold landing page" loading="lazy" decoding="async" /></div><div class="ticker-card-body"><p class="case-label">05 · 2025</p><p class="card-client">Project · Client commission</p><h3>Mokaab Gold</h3><p>End-to-end product design for digital and physical gold and silver.</p><span class="ticker-link">Read case study <span aria-hidden="true">↗</span></span></div></a></article>
+            <article class="ticker-card ticker-card-blue"><a href="#case-soora" aria-label="Read the Soora case study"><div class="ticker-card-media"><img src="assets/soora-home-web.png" alt="Soora astrology app home screen" loading="lazy" decoding="async" /></div><div class="ticker-card-body"><p class="case-label">06 · 2025–PRESENT</p><p class="card-client">Project · Independent concept</p><h3>Soora</h3><p>AI-assisted astrology readings for personality, daily life, and compatibility.</p><span class="ticker-link">Read case study <span aria-hidden="true">↗</span></span></div></a></article>
+            <article class="ticker-card ticker-card-dark"><a href="#case-hesabdar" aria-label="Read the Hesabdar case study"><div class="ticker-card-media"><img src="assets/hesabdar-invoices-light-web.png" alt="Hesabdar invoice management workspace in light mode" loading="lazy" decoding="async" /></div><div class="ticker-card-body"><p class="case-label">07 · 2-MONTH PROJECT</p><p class="card-client">Product · Accounting &amp; invoicing</p><h3>Hesabdar</h3><p>Simplifying tax-invoice operations with responsive light and dark UI.</p><span class="ticker-link">Read case study <span aria-hidden="true">↗</span></span></div></a></article>
+            <article class="ticker-card ticker-card-blue"><a href="#case-diet-app" aria-label="Read the Diet App research case study"><div class="ticker-card-media"><img src="assets/diet-hero-web.png" alt="Diet App research process overview" loading="lazy" decoding="async" /></div><div class="ticker-card-body"><p class="case-label">08 · 2-MONTH PROJECT</p><p class="card-client">Product · Diet &amp; health service</p><h3>Diet App Research</h3><p>Turning research evidence into a clearer product roadmap.</p><span class="ticker-link">Read case study <span aria-hidden="true">↗</span></span></div></a></article>
           </div>
-          <div class="case-visual case-visual-real">
-            <a href="case-mehrabani.html" aria-label="Read the Mehrabani case study">
-              <span class="case-screen-label">REAL LIVE PRODUCT SCREENSHOT</span>
-              <img src="assets/mehrabani-live-desktop.png" alt="Real screenshot of the live Mehrabani website" loading="lazy" />
-            </a>
-          </div>
-          <div class="case-card-bottom">
-            <div>
-              <h3 id="case-title">Designing trust into charitable support</h3>
-              <p>
-                A platform that connects aid programs, donors, people in need, and operational teams through clearer information and more practical flows.
-              </p>
-            </div>
-            <ul class="tag-list" aria-label="Case study topics">
-              <li>UX Research</li><li>Information Architecture</li><li>Responsive UI</li>
-            </ul>
-          </div>
-        </article>
+        </div>
       </section>
 
-      <section class="case-study section" id="mehrabani" aria-labelledby="mehrabani-title">
+      <template id="legacy-mehrabani-source">
         <div class="case-intro">
           <p class="section-index">03 / CASE STUDY</p>
           <div>
@@ -212,15 +198,17 @@
             </p>
           </div>
         </section>
-      </section>
+      </template>
+
+      <div id="visual-archive-anchor" aria-hidden="true"></div>
 
       <section class="approach section" id="approach" aria-labelledby="approach-title">
-        <p class="section-index">04 / HOW I WORK</p>
-        <h2 id="approach-title">Research enough to understand.<br />Design enough to move forward.</h2>
+        <p class="section-index">04 / PRODUCT DESIGN PROCESS</p>
+        <h2 id="approach-title">How I turn a product idea into a clear experience.</h2>
         <div class="approach-grid">
-          <div><span>01</span><h3>Frame</h3><p>Clarify the problem, people, product context, and constraints.</p></div>
-          <div><span>02</span><h3>Make sense</h3><p>Turn research, feedback, and complexity into useful product direction.</p></div>
-          <div><span>03</span><h3>Design &amp; iterate</h3><p>Build clear flows, detailed interfaces, and prototypes that make decisions tangible.</p></div>
+          <div><span>01 / UNDERSTAND</span><h3>Frame the product</h3><p>Clarify the business goal, user needs, existing constraints, and the problem worth solving.</p></div>
+          <div><span>02 / STRUCTURE</span><h3>Shape the journey</h3><p>Turn findings into a sitemap, focused scenarios, user flows, and a practical product direction.</p></div>
+          <div><span>03 / DESIGN</span><h3>Make it tangible</h3><p>Create wireframes, reusable components, responsive UI, and prototypes to test and refine the experience.</p></div>
         </div>
       </section>
 
@@ -230,24 +218,40 @@
           <h2 id="next-work-title">More stories are<br />on their way.</h2>
         </div>
         <p>New case studies are being prepared with the same level of clarity and care. Browse the work archive to see what is coming next.</p>
-        <a class="text-link" href="work.html">View work archive <span aria-hidden="true">→</span></a>
+        <a class="text-link" href="#work">Browse selected work <span aria-hidden="true">↑</span></a>
       </section>
 
-      <section class="work-library section" aria-labelledby="library-title">
-        <div class="library-callout">
-          <div><p class="section-index">05 / VISUAL WORK</p><h2 id="library-title">Templates, landing pages, and focused visual explorations.</h2></div>
-          <a class="text-link" href="templates.html">Browse templates <span aria-hidden="true">→</span></a>
-        </div>
+      <section class="about-introduction section" id="about" aria-labelledby="about-home-title">
+        <p class="section-index">05 / ABOUT &amp; EXPERIENCE</p>
+        <div><h2 id="about-home-title">I care about the point where human context and product decisions meet.</h2><p>With 4+ years of experience, I move between qualitative research, product structure, interface design, and prototypes. I enjoy making complex services feel understandable without losing the detail that teams need to operate them.</p></div>
       </section>
+
+      <section class="capabilities-section section" aria-labelledby="capabilities-title">
+        <p class="section-index">MY CAPABILITIES</p>
+        <div class="capabilities-content"><h2 id="capabilities-title">The ways I help a product move forward.</h2><p>My practice combines research, systems thinking, visual craft, and a practical AI-assisted workflow.</p><ul class="capability-tags" aria-label="Capabilities"><li>Product Design</li><li>UX/UI Design</li><li>Interaction Design</li><li>User Flows &amp; IA</li><li>Qualitative Research</li><li>Figma &amp; Prototyping</li><li>Framer &amp; Responsive Web</li><li>AI-assisted Exploration</li><li>Documentation</li></ul></div>
+      </section>
+
+      <section class="experience-section section" id="experience" aria-labelledby="experience-title">
+        <div class="experience-heading"><p class="section-index">EXPERIENCE</p><div><h2 id="experience-title">A timeline of product, research, and visual work.</h2><p>Roles overlap where projects and research contracts ran alongside full-time work.</p></div></div>
+        <ol class="experience-timeline">
+          <li><span class="timeline-marker" aria-hidden="true"></span><article><p class="timeline-date">DEC 2025 — PRESENT</p><h3>Independent Product Designer &amp; Framer Designer</h3><p class="timeline-company">Self-employed · Qom, Iran</p><p>Designing responsive Framer websites and visual product concepts. Built Sora, an AI-powered astrology and synastry concept, from early flows and content direction to an interactive prototype and visual system.</p></article></li>
+          <li><span class="timeline-marker" aria-hidden="true"></span><article><p class="timeline-date">JUN 2023 — SEP 2025</p><h3>Product Designer / UI/UX Designer</h3><p class="timeline-company">NovinParva · Full-time</p><p>Designed a bilingual English/Arabic Hajj guide, a central CMS for multiple mobile applications, and an office-automation product. Delivered information architecture, user flows, interfaces, and interactive prototypes for complex administrative journeys.</p></article></li>
+          <li><span class="timeline-marker" aria-hidden="true"></span><article><p class="timeline-date">MAR 2024 — JUN 2024</p><h3>UX Researcher</h3><p class="timeline-company">Kermani Health Group · Part-time / Contract</p><p>Conducted exploratory research for a health-services product through online surveys, competitor analysis, and affinity mapping, then translated qualitative findings into product recommendations.</p></article></li>
+          <li><span class="timeline-marker" aria-hidden="true"></span><article><p class="timeline-date">SEP 2022 — MAY 2024</p><h3>Product Designer / UI/UX Designer</h3><p class="timeline-company">Aghigh Family · Full-time / On-site</p><p>Worked primarily on research for Mehrabani, a digital charity platform spanning content, logistics, credits, and profiles. My design contribution was the Mehrabani landing page; the visual identity and wider product surfaces were created with the team.</p></article></li>
+          <li><span class="timeline-marker" aria-hidden="true"></span><article><p class="timeline-date">FEB 2022 — AUG 2022</p><h3>UX/UI Design Intern</h3><p class="timeline-company">Tank.ir</p><p>Developed foundations in interface design, user flows, wireframing, prototyping, and collaborative product-design practice.</p></article></li>
+        </ol>
+      </section>
+
+      <section class="education-section section" aria-labelledby="education-title"><p class="section-index">EDUCATION</p><div><h2 id="education-title">University of Kashan</h2><p>Bachelor’s Degree in Psychology · 2013 — 2017</p></div></section>
+
     </main>
 
-    <footer class="site-footer" id="contact">
-      <p class="section-index">06 / CONTACT</p>
-      <div class="footer-main">
-        <h2>Let’s make something<br /><em>clearer.</em></h2>
-        <a class="footer-email" href="https://www.linkedin.com/in/saraesmaili/" target="_blank" rel="noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
+    <footer class="site-footer" id="site-footer">
+      <div class="footer-top">
+        <a class="wordmark" href="#top" aria-label="Sara Esmaeili, home">SARA<span>·</span>ESMAEILI</a>
+        <nav class="footer-nav" aria-label="Footer navigation"><a href="#top">Home</a><a href="#work">Case Studies</a><a href="#visual-archive-content">Visual Archive</a><a href="#about">About</a><a href="contact.html">Contact</a></nav>
       </div>
-      <div class="footer-bottom"><span>© 2026 Sara Esmaeili</span><span>Product Designer · Qom, Iran</span></div>
+      <div class="footer-bottom"><span>© 2026 Sara Esmaeili</span><span>Product Designer · Qom, Iran</span><a href="mailto:sara.esmaeili.design@gmail.com">sara.esmaeili.design@gmail.com</a><a href="https://www.linkedin.com/in/saraesmaeili/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
     </footer>
   </body>
 </html>
