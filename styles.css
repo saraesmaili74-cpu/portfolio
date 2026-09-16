@@ -1143,3 +1143,9 @@ img[loading="lazy"] { content-visibility: auto; }
 @media (max-width: 760px) {
   .home .contact-page { grid-template-columns: 1fr; gap: 32px; }
 }
+
+/* A case-study hero can grow beyond one viewport when it includes a large product mockup. */
+.case-hero {
+  height: auto;
+  min-height: 100svh;
+}
